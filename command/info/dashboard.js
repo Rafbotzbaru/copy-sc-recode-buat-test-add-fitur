@@ -14,9 +14,9 @@ module.exports = {
 			let findData = dashboard.find((a) => a.name == data.name.toLowerCase());
 			teks = `*• Dashboard ${config.namebot}*\n\n`;
 			teks += `*➢ #${findData.name}* : ${findData.success + findData.failed}\n`;
-			teks += `*⌘ Success:* ${findData.success}\n`;
-			teks += `*⌘ Failed:* ${findData.failed}\n`;
-			teks += `*⌘ Last Used:* ${require("moment")(findData.lastUpdate).fromNow()}\n\n`;
+			teks += `*⌘ Berhasil :* ${findData.success}\n`;
+			teks += `*⌘ Gagal :* ${findData.failed}\n`;
+			teks += `*⌘ Terakhir Digunakan :* ${require("moment")(findData.lastUpdate).fromNow()}\n\n`;
 			await msg.reply(teks, { adReply: true });
 		} else {
 			dashboard = dashboard.sort(function (a, b) {
@@ -27,16 +27,16 @@ module.exports = {
 			let jumlah = require("mathjs").evaluate(success.join("+")) + require("mathjs").evaluate(failed.join("+"));
 			let teks = `*• Dashboard ${config.namebot}*\n\n*➤ Global HIT*\n\n`;
 			teks += `*➢ HIT*\n`;
-			teks += `*⌘ Global:* ${jumlah}\n`;
-			teks += `*⌘ Success:* ${require("mathjs").evaluate(success.join("+"))}\n`;
-			teks += `*⌘ Failed:* ${require("mathjs").evaluate(failed.join("+"))}\n\n`;
-			teks += `*➤ Most Command Global*\n\n`;
+			teks += `*⌘ Global :* ${jumlah}\n`;
+			teks += `*⌘ Success :* ${require("mathjs").evaluate(success.join("+"))}\n`;
+			teks += `*⌘ Failed :* ${require("mathjs").evaluate(failed.join("+"))}\n\n`;
+			teks += `*➤ Sebagian Besar Command Global*\n\n`;
 			let dbny = dashboard.length > 5 ? 5 : dashboard.length;
 			for (let i = 0; i < dbny; i++) {
 				teks += `*➢ #${dashboard[i].name}* : ${dashboard[i].success + dashboard[i].failed}\n`;
-				teks += `*⌘ Success:* ${dashboard[i].success}\n`;
-				teks += `*⌘ Failed:* ${dashboard[i].failed}\n`;
-				teks += `*⌘ Last Used:* ${require("moment")(dashboard[i].lastUpdate).fromNow()}\n\n`;
+				teks += `*⌘ Berhasil :* ${dashboard[i].success}\n`;
+				teks += `*⌘ Gagal :* ${dashboard[i].failed}\n`;
+				teks += `*⌘ Terakhir Digunakan :* ${require("moment")(dashboard[i].lastUpdate).fromNow()}\n\n`;
 			}
 			teks += `Type *${prefix}dashboard <name command>* to find out the command data.\nUsage: *${prefix}dashboard help*`;
 			await msg.reply(teks, { adReply: true });
