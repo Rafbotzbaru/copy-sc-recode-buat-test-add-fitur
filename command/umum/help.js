@@ -48,9 +48,9 @@ module.exports = {
 					category[cteg].push(info);
 				}
 			}
-			let str = `「 *${config.namebot}* 」
-◪ Name Owner :*
-❏ _Asyraf 6Youu_
+			let str = `「 *QIYUMMY-MD BOTZ* 」
+◪ *Name Owner :*
+❏ _*Asyraf 6Youu*_
 ◪ *Owner :*
 ❏ @+62 819-4694-5315	
 ◪ *Time :*
@@ -98,7 +98,7 @@ ${
 					)
 					.join("\n")}\n\n`;
 			}
-			str += `typing *${prefix}help sticker* for get the details and example use`;
+			str += `QIYUMMY-MD BOTZ By ASYRAF 6YOUU`;
 			await conn.sendMessage(
 				msg.from,
 				{
@@ -109,7 +109,7 @@ ${
 					templateButtons: [
 						{ urlButton: { displayText: "Youtube", url: "https://bit.ly/3c0WJz9" } },
 						{ urlButton: { displayText: "Group Bot", url: "https://bit.ly/3ax9GjJ" } },
-						{ quickReplyButton: { displayText: "Buy Script", id: "#owner" } },
+						{ quickReplyButton: { displayText: "Buy Script", id: "#sc" } },
 						{ quickReplyButton: { displayText: "Changelog", id: "#changelog" } },
 						{ quickReplyButton: { displayText: "Dashboard", id: "#db" } },
 					],
