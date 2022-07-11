@@ -23,9 +23,9 @@ module.exports = {
 		let data2 = db.cekDatabase("welcome", "id", msg.from);
 		if (args[0] == 1) {
 			if (data2) throw "been active before";
-			db.modified("welcome", { id: msg.from, teks: "Welcome to @subject good luck @user", lastUpdate: false });
+			db.modified("welcome", { id: msg.from, teks: "Hy Dek,\nWelcome to Group :\n@subject\n\nMASUK GROUP QIYUMMY-MD BOTZ :\n₲ⱤɄ₱ ฿Ø₮Ⱬ ꋬꇙꌦꋪꋬꊰ 6ꌦꄲ꒤꒤\nGROUP 1 :\nhttps://bit.ly/3ax9GjJ\nGROUP 2 :\nhttps://bit.ly/3yuGWAi\nGROUP 3 :\nhttps://bit.ly/3RlgwJQ", lastUpdate: false });
 			await msg.reply(
-				`Welcome turned on successfully\n Type\n1. *${prefix}setwelcome text*\n-desc: if you want to change the text on welcome\n2. *${prefix}setleft text*\n-desc: if you want to change the text on left`
+				`Welcome QIYUMMY-MD BOTZ Berhasil Diaktifkan\n\nKetik ${prefix}setwelcome <teks> jika ingin Mengubah teks welcome QIYUMMY-MD BOTZ\nketik ${prefix}setleft jika ingin mengubah teks left QIYUMMY-MD Botz`
 			);
 		} else if (args[0] == 0) {
 			if (!data2) throw "not active before";
