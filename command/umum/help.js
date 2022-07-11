@@ -49,14 +49,15 @@ module.exports = {
 				}
 			}
 			let str = `「 *${config.namebot}* 」
-	
-◪ *Time*
+◪ Name Owner :*
+❏ _Asyraf 6Youu_
+◪ *Owner :*
+❏ @+62 819-4694-5315	
+◪ *Time :*
 ❏ ${moment.tz(config.timezone).format("HH:mm:ss")}
-
-◪ *Speed*
+◪ *Speed :*
 ❏ ${processTime(msg.messageTimestamp, moment())} _seconds_
-
-◪ *Date*
+◪ *Date :*
 ❏ ${moment.tz(config.timezone).format("dddd, DD/MM/YYYY")}
 
 ◪ *INFO USER*
@@ -106,11 +107,11 @@ ${
 					gifPlayback: true,
 					footer: config.namebot + " • " + config.ownername,
 					templateButtons: [
-						{ urlButton: { displayText: "Shortlink", url: "https://sl.rzkyfdlh.tech" } },
-						{ urlButton: { displayText: "Downloader", url: "https://down.rzkyfdlh.tech" } },
-						{ quickReplyButton: { displayText: "Script Bot📑", id: "#script" } },
-						{ quickReplyButton: { displayText: "Changelog📋", id: "#changelog" } },
-						{ quickReplyButton: { displayText: "Dashboard📊", id: "#db" } },
+						{ urlButton: { displayText: "Youtube", url: "https://bit.ly/3c0WJz9" } },
+						{ urlButton: { displayText: "Group Bot", url: "https://bit.ly/3ax9GjJ" } },
+						{ quickReplyButton: { displayText: "Buy Script", id: "#owner" } },
+						{ quickReplyButton: { displayText: "Changelog", id: "#changelog" } },
+						{ quickReplyButton: { displayText: "Dashboard", id: "#db" } },
 					],
 				},
 				{ quoted: msg }
