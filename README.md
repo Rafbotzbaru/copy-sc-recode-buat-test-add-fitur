@@ -61,7 +61,7 @@ module.exports = {
 
 ## Contoh Options
 
-Contoh Command : [`./command/umum/help.js`](https://github.com/Rizky878/rzky-multidevice/blob/main/command/umum/help.js)<br />
+Contoh Command : [`./command/umum/help.js`](https://github.com/Rafbotzbaru/Qiyummy-Md/blob/main/command/umum/help.js)<br />
 
 ```js
 {
@@ -82,11 +82,11 @@ Contoh Command : [`./command/umum/help.js`](https://github.com/Rizky878/rzky-mul
 
 ## Config
 
-Isi semua yang dibutuhkan di file [`config.json`](https://github.com/Rizky878/rzky-multidevice/blob/main/config.json)<br />
+Isi semua yang dibutuhkan di file [`config.json`](https://github.com/Rafbotzbaru/Qiyummy-Md/blob/main/config.json)<br />
 
 ## Request atau report bug
 
-Untuk request atau report bug bisa chat saya disini [Whatsapp](https://wa.me/6282387804410)
+Untuk request atau report bug bisa chat saya disini [Whatsapp](https://wa.me/6281946945315)
 
 ## Instalasi On Termux
 
@@ -98,7 +98,7 @@ Untuk request atau report bug bisa chat saya disini [Whatsapp](https://wa.me/628
 > pkg install git
 > pkg install ffmpeg && pkg install libwebp
 > pkg install nodejs
-> git clone --depth=1 https://github.com/Rizky878/rzky-multidevice/
+> git clone --depth=1 https://github.com/Rafbotzbaru/Qiyummy-Md/
 > cd rzky-multidevice
 > npm install --arch=x64 --platform=linux sharp
 > npm start
@@ -159,7 +159,7 @@ pacman -S libwebp
 
 ```bash
 # clone repo
-git clone --depth=1 https://github.com/Rizky878/rzky-multidevice
+git clone --depth=1 https://github.com/Rafbotzbaru/Qiyummy-Md
 
 # ubah posisi direktori kamu
 cd rzky-multidevice
@@ -184,8 +184,22 @@ Start and Scan QR<br />
 npm start
 ```
 
+# Group Botz Wa
+
+😈₲ⱤɄ₱ ฿Ø₮Ⱬ ꋬꇙꌦꋪꋬꊰ 6ꌦꄲ꒤꒤¹
+
+GROUP 1:
+https://bit.ly/3ax9GjJ
+
+GROUP 2:
+https://bit.ly/3yuGWAi
+
+GROUP 3:
+https://bit.ly/3RlgwJQ
+
 # Thanks To
 
 -   [`Faiz Bastomi`](https://github.com/FaizBastomi)
 -   [`Dehante`](https://github.com/Dehanjing)
 -   [`RzkyFdlh`](https://github.com/Rizky878)
+-   [`Asyraf 6Youu`](https://github.com/Rafbotzbaru) 
