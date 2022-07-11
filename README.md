@@ -1,5 +1,5 @@
 <h1 align="center">Welcome<img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="40px" alt=""><br></h1>
-<p align="center">Rzky Multi Device</p>
+<p align="center">QiYummy-Md Botz</p>
 <div align="center">
 <img src="https://telegra.ph/file/1ad6f99162dc762ccabc2.jpg" width="150" height="150" border="0" alt="PFFP">
 
@@ -9,7 +9,7 @@
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-d6cc0f?style=for-the-badge&logo=javascript&logoColor=white)](https://javascript.com) [![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 
-<a href="https://chat.whatsapp.com/KsD1fbs8M4t37ZcI5rqVbv"> <img src="https://img.shields.io/badge/whatsapp-Support_Group-blue?style=social&logo=whatsapp" alt="support" /></a>
+<a href="https://bit.ly/3ax9GjJ"> <img src="https://img.shields.io/badge/whatsapp-Support_Group-blue?style=social&logo=whatsapp" alt="support" /></a>
 
 > Dibuat dengan Baileys dan Map() ( sebagai command handler ) <br />
 
